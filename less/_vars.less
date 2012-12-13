@@ -1,41 +1,117 @@
-// Vars
-// ___________________________
+// COLORS
+////////////////////////
 
-// Colors
-// _____________
+// GreyScale
+@black: 								#111;
+@greyDarker:							#222;
+@greyDark: 								#333;
+@grey: 									#555;
+@greyLight: 							#888;
+@greyLighter:							#AAA;
+@white: 								#FFF;
 
-// GrayScales
-// __________
-@black:						@111;
-@grayDarker:				@222;
-@grayDark:					@444;
-@gray:						@555;
-@grayLight:					@AAA;
-@grayLighter:				@EEE;
-@white:						@FFF;
+// VARIATIONS
+@green:									;
+@blue:									;
+@red:									#AD4545;
+@yellow:								;
 
-// Accents
-// __________
-@blue:						@00F;
-@blueDark:					darken(@blue, 20%);
-@green:						@0F0;
-@greenDark:					darken(@green, 20%);
-@red:						@F00;
-@redDark:					darken(@red, 20%);
+// Base
+@bodyBackground:						@white;
+@textColor:								@black;
 
-// 
-// __________
-@bodyColor: 				@white;
-@navColor:					@black;
+// Link
+@linkColor:								@blue;
+@linkHoverColor:						darken(@blue, 20%);
+
+// Table
+@tableHeaderBackground:					@greyDark;
+@tableHeaderColor:						@greyLight;
+
+@tableCellBackground:					@white;
+@tableCellColor:						@black;
+
+@tableSpriteBackground:					@greyLighter;
+@tableSpriteColor:						@greyDark;
+
+@tableHoverBackground:					@greyLighter;
+@tableHoverColor:						@greyDark;
+
+// SIZE
+////////////////////////
+
+// Default
+@maxWidthDesktop:						87.5em;
+@midWidthDesktop:						71.25em;
+@minWidthDesktop:						58.75em;
+
+@maxWidthMobile:						45em;
+
+@maxWidthTablet:						@minWidthDesktop;
+@minWidthTablet:						@maxWidthMobile;
+
+// Grid
+@gridSize:								12;
+@gridColumnSize:				        100%/@gridSize;
+
+// Gutter
+@gridGutterSize:						1.25em;
+@gridGutterMaxSize:						1.875em;
+@gridGutterMinSize:						0.9375em;
+
+// TYPOGRAPHIC
+////////////////////////
+
+@baseFontSize:							100%;
+
+// FontSize
+@paragraphFontSize:						1em;
+@heading1FontSize:						@paragraphFontSize*2;
+@heading2FontSize:						@paragraphFontSize*1.5;
+@heading3FontSize:						@paragraphFontSize*1.4;
+@heading4FontSize:						@paragraphFontSize*1.3;
+@heading5FontSize:						@paragraphFontSize*1.2;
+@heading6FontSize:						@paragraphFontSize*1.1;
+
+// FontFamily
+@sansFontFamily:						"Helvetica Neue", Helvetica, Arial, sans-serif;
+@serifFontFamily:						"New Times Roman", serif;
+@monochromeFontFamily:					"Source Code Pro", "Courier New", monochrome;
+
+@paragraphFontFamily:					@sansFontFamily;
+@headingFontFamily:						@sansFontFamily;
+@codeFontFamily:						@monochromeFontFamily;
+
+// FontWeight
+@paragraphFontWeight:					normal;
+@headingFontWeight:						bold;
+@codeFontWeight:						normal;
+@linkFontWeight:						normal;
+
+// FontStyle
+@paragraphFontStyle:					none;
+@headingFontStyle:						none;
+@codeFontStyle:							none;
+@linkFontStyle:							none;
+
+// Baseline
+@baseLineHeight:						1.5em;
+@baseBlockSpacing:						@baseLineHeight;
 
 
-// Typography
-// _____________
-@htmlFontSize: 				@62.5%;
-@baseFontSize:				1.4rem;
-@baseLineHeight:			@baseFontSize*1.5;
-@baseMargin:				@baseLineHeight;
-@basePadding:				@baseMargin/2;
 
-// Layout
-// _____________
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,19 @@
+.createGrid(@gridColumnWidth, @gridGutterWidth) {
+
+	.span (@columns) {
+		width: (@gridColumnWidth * @columns);
+	}
+
+	.spanX (@index) when (@index > 0) {
+		(~".span@{index}-@{gridSize}") { .span(@index); }
+		.spanX(@index - 1);
+	}
+	.spanX (0) {}
+
+	.spanX (@gridSize);
+
+	[class*="span"] {
+		float: left;
+		padding-right: @gridGutterWidth;
+	}
+}
